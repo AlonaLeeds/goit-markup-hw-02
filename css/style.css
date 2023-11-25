@@ -3,7 +3,7 @@
 }
 
 body {
-   font-family: "Roboto", "Raleway";
+   font-family: "Roboto", "Raleway", sans-serif;
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
@@ -12,20 +12,18 @@ body {
    color: #434455;
    background-color: #FFFFFF
 }
-header {
-   background-color: #E7E9FC;
-}
+
 ul {
    list-style-type: none;
 }
 h2 {
    font-size: 36px;
    font-weight: 700;
-   line-height: 1.111;
+   line-height: 1.11;
    letter-spacing: 0.72px;
    text-transform: capitalize;
    text-align: center;
-   color: #2E2F42;
+   
 }
 h3 {
    font-size: 20px;
@@ -35,17 +33,37 @@ h3 {
    line-height:1.2;
 }
 
+header {
+   background-color: #E7E9FC;
+}
+
+address {
+   font-weight: 400;
+   color: #434455;
+   font-style: normal;
+}
+
+address a:hover {
+   color: #404BBF;
+}
+
+address a:focus {
+   color: #404BBF;
+}
+
+
 .logo {
    font-family: "Raleway", sans-serif;
    font-size: 18px;
-   color:#2E2F42;;
+   color:#4d5ae5;
    font-weight: 700;
    text-transform: uppercase;
-   line-height: 1.167;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
 }
 
 span {
-   color: #4D5AE5;
+   color: #2E2F42;
 }
 
 .hero {
@@ -57,20 +75,27 @@ span {
    font-size: 56px;
    font-style: normal;
    font-weight: 700;
-   line-height: 1.0714;
+   line-height: 1.07;
    text-align: center;
    letter-spacing: 1.12px;
    color: #FFFFFF;
 }
 
 button {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
    background-color: #4D5AE5;
    color: #FFFFFF;
    cursor: pointer;
+   line-height: 1.5;
+   letter-spacing:0.04em ;
 
 }
 
 button:hover {
+   background-color: #404BBF;
+}
+button:focus{
    background-color: #404BBF;
 }
 
@@ -87,20 +112,12 @@ button:hover {
    color: #404BBF;
 }
 .menu a:active{
+   color: #404bbf;
    text-decoration: underline;
 }
-address a {
-   font-weight: 400;
-   color: #434455;
-   font-style: normal;
+.our-team{
+   background-color: #F4F4FD;
 }
-address a:hover {
-   color: #404BBF;
-}
-address a:focus {
-   color: #404BBF;
-}
-
 footer{
    background-color: #2E2F42;
 }
