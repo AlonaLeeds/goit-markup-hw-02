@@ -36,7 +36,9 @@ h2 {
 header {
    background-color: #E7E9FC;
 }
-
+address{
+   font-style: normal;
+}
 address a {
    font-weight: 400;
    color: #434455;
@@ -119,11 +121,13 @@ button:focus{
    color: #404bbf;
    text-decoration: underline;
 }
-.our-team{
+.our-team > ul {
    background-color: #F4F4FD;
 }
+.title{
+  color: #2e2f42;
+}
 .main-page{
-   background-color: #FFFFFF;
    color: #2E2F42;
 }
 .description{
