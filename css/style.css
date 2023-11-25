@@ -3,7 +3,7 @@
 }
 
 body {
-   font-family: "Roboto", "Raleway", sans-serif;
+   font-family: "Roboto", sans-serif;
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
@@ -37,7 +37,7 @@ header {
    background-color: #E7E9FC;
 }
 
-address {
+address a {
    font-weight: 400;
    color: #434455;
    font-style: normal;
@@ -115,8 +115,19 @@ button:focus{
    color: #404bbf;
    text-decoration: underline;
 }
+.menu a:focus {
+   color: #404bbf;
+   text-decoration: underline;
+}
 .our-team{
    background-color: #F4F4FD;
+}
+.main-page{
+   background-color: #FFFFFF;
+   color: #2E2F42;
+}
+.description{
+   font-size: 16px;
 }
 footer{
    background-color: #2E2F42;
