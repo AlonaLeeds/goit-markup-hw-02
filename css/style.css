@@ -132,11 +132,15 @@ button:focus{
 footer{
    background-color: #2E2F42;
 }
-footer .logo {
-   
+footer a {
    color: #F4F4FD;
    letter-spacing: 0.54px;
 }
 footer p {
+   line-height: 1.5;
+   letter-spacing: 0.02em;
    color: #F4F4FD;
+}
+footer span{
+   color: #f4f4fd;
 }
