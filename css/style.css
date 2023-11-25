@@ -121,8 +121,11 @@ button:focus{
    color: #404bbf;
    text-decoration: underline;
 }
-.our-team > ul {
+.our-team {
    background-color: #F4F4FD;
+}
+.our-team>ul {
+ background-color:  #FFFFFF;
 }
 .title{
   color: #2e2f42;
