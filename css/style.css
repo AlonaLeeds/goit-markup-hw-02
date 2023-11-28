@@ -33,9 +33,6 @@ h2 {
    line-height:1.2;
 }
 
-header {
-   background-color: #E7E9FC;
-}
 address{
    font-style: normal;
 }
@@ -148,6 +145,6 @@ footer p {
    letter-spacing: 0.02em;
    color: #F4F4FD;
 }
-footer span{
+footer span {
    color: #f4f4fd;
 }
